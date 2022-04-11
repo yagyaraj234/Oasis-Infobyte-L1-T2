@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+::root {
+  color: #192841;
+  --bg-color: #192841;
+  --bg-color2: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url(img/userbg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+}
+
+.navbar li {
+  display: flex;
+  justify-content: center;
+  height: 8vh;
+  align-items: center;
+}
+
+header .navbar li ul a {
+  margin: 30px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.671);
+}
+
+.navbar li ul a:hover {
+  color: #192841;
+}
+
+/* --------------------- Profile Section ----------------------- */
+
+.info {
+  float: left;
+  margin: 20vh;
+  margin-top: 30vh;
+  width: 40%;
+}
+
+.info h1 {
+  font-size: 3rem;
+  margin: 1.5rem;
+}
+
+.info p {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+.btn {
+  margin: 1.5rem;
+}
+
+.btn1,
+.btn2 {
+  height: 2.7rem;
+  width: 7rem;
+  padding: 0.5rem;
+  background: #192841;
+  color: white;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  border: 1px solid black;
+  margin-left: 3px;
+
+  text-decoration: none;
+}
+.btn1:hover {
+  color: black;
+  background: transparent;
+  filter: drop-shadow(10px 10px 10px #192841);
+}
+
+.btn2:hover {
+  color: black;
+  background: transparent;
+  filter: drop-shadow(5px 5px 5px #192841);
+}
+
+.user-img {
+  float: right;
+}
+
+.about {
+  overflow: hidden;
+}
+
+.user-img1 {
+  height: 80vh;
+  margin-top: 3rem;
+  border-radius: 20rem;
+}
+/* ----------------------------------------- about me ---------------------------------------------- 
+     */
+
+.user-info {
+  margin-top: 10vh;
+  display: flex;
+  margin-left: 5rem;
+  justify-content: center;
+  /* float: left; */
+}
+
+.box {
+  height: 30vh;
+  width: 15vw;
+  background: blur(10px);
+  /* backdrop-filter: ; */
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: brightness(60%);
+  border: 1px solid #1928415f;
+
+  backdrop-filter: blur(20px);
+
+  border-radius: 1rem;
+  margin: 1rem;
+  align-items: center;
+}
+.box p{
+  text-align: center;
+  font-size: 1.2rem;
+}
+.box .detail{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.detail2{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 14vh;
+}
+.icons{
+ margin: 10px 40%;
+}
+
+.box:hover{
+  cursor: pointer;
+  background: transparent;
+}
+
+.myimg {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  /* float: right; */
+  /* border: 2px solid red; */
+}
+.heading1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.781);
+}
+
+.head2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.heading {
+  text-align: center;
+}
+.card {
+  background: #192841;
+  border: 2px solid #192841;
+  border-radius: 1rem;
+  height: 50vh;
+  width: 20vw;
+  padding: 3vh;
+  padding-top: 6vh;
+  margin: 10vh;
+  color: white;
+  text-align: center;
+  text-indent: 0em;
+  text-emphasis: none;
+}
+
+.card:hover {
+  background: transparent;
+  color: #192841;
+  cursor: pointer;
+}
+.social {
+  margin: 1rem;
+  position: fixed;
+  top: 40%;
+}
+.social li {
+  list-style: none;
+}
+.social li ul {
+  margin: 0.5rem;
+}
+.social li ul:hover {
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.448));
+}
+.offers {
+  display: flex;
+  justify-content: center;
+}
+
+.card1 {
+  /* background: #192841; */
+  border-radius: 1rem;
+  height: 60vh;
+  width: 20vw;
+  padding: 3vh;
+  padding-top: 6vh;
+  margin: 10vh;
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  text-indent: 0em;
+  text-emphasis: none;
+  /* filter: drop-shadow(1px 6px 6px black); */
+}
+.card1:hover {
+  cursor: pointer;
+  background: #192841;
+  color: white;
+}
